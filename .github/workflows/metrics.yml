@@ -13,10 +13,8 @@ jobs:
         with:
           token: ${{secrets.METRICS_TOKEN}} 
           # Options
+          organization: ByteCats
           template: repository
           Repository: microman
           base: header, activity, community, repositories, metadata
-          plugin_followup: yes
-          plugin_followup_sections: repositories, user
-          plugin_lines: yes
           plugin_traffic: yes

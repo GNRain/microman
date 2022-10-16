@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: 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
           user: Yuno-obsessed
           template: classic
           base: header, activity, community, repositories, metadata

@@ -14,7 +14,11 @@ jobs:
           token: ${{secrets.METRICS_TOKEN}} 
           # Options
           user: GNRain
-          template: repository
-          Repository: microman
+          template: classic
           base: header, activity, community, repositories, metadata
+          config_timezone: America/Fortaleza
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          plugin_lines: yes
+          plugin_stargazers: yes
           plugin_traffic: yes

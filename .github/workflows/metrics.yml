@@ -12,13 +12,11 @@ jobs:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{secrets.METRICS_TOKEN}} 
-
           # Options
-          user: GNRain
-          template: classic
+          template: repository
+          Repository: microman
           base: header, activity, community, repositories, metadata
-          config_timezone: America/Fortaleza
           plugin_followup: yes
           plugin_followup_sections: repositories, user
           plugin_lines: yes
-          plugin_stargazers: yes
+          plugin_traffic: yes

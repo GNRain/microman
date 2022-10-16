@@ -13,7 +13,7 @@ jobs:
         with:
           token: ${{secrets.METRICS_TOKEN}} 
           # Options
-          organization: ByteCats
+          user: GNRain
           template: repository
           Repository: microman
           base: header, activity, community, repositories, metadata
